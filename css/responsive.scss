@@ -1,0 +1,247 @@
+// BREAKING POINTS: 480px, 768px, 1024pc, 1280px
+
+// @1280px  ************************
+@media (max-width: 80em) {
+  html {
+    font-size: 56.25%;
+    color: red !important;
+  }
+  .center-cont {
+    width: 90%;
+    padding: 0 2rem !important;
+  }
+}
+
+// 1024px   ************************
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo-img {
+    height: 3rem;
+  }
+
+  .section-engg {
+    .grid--3 {
+      grid-template-columns: 1fr 1fr !important;
+      justify-content: center;
+
+      .flex-verti {
+        gap: 1.2rem;
+      }
+    }
+  }
+
+  .section-outreach {
+    .card {
+      width: 60% !important;
+    }
+  }
+}
+
+// 991px for navbar *******************
+@media (max-width: 62rem) {
+  header {
+    .menu-1 {
+      padding: 2rem 0 !important;
+      align-items: flex-start !important;
+      position: relative;
+
+      .nav-link-cont {
+        height: fit-content !important;
+      }
+
+      .navbar {
+        position: absolute;
+        right: 2rem;
+
+        .navbar-collapse {
+          background-color: #000048;
+          position: absolute;
+          font-size: 2rem;
+          line-height: 1.8;
+          width: max-content !important;
+          top: 3rem !important;
+          right: 3rem !important;
+          padding: 0 2rem;
+          z-index: 120;
+          font-weight: 500;
+          color: #fff;
+          svg {
+            fill: #fff !important;
+          }
+        }
+        .worldwide-link {
+          border-left: none !important;
+          padding-left: 0 !important;
+          margin-left: 0 !important;
+        }
+      }
+      .worldwide-link {
+        border-left: none !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+      }
+    }
+
+    .menu-2 {
+      padding: 2rem 0 !important;
+      align-items: flex-start !important;
+      position: relative;
+
+      .navbar {
+        position: absolute;
+        right: 2rem;
+
+        button {
+          z-index: 110;
+        }
+
+        .navbar-collapse {
+          background-color: #000048;
+          position: absolute;
+          width: max-content !important;
+
+          padding: 0 2rem;
+          // margin-top: 28rem;
+          top: 3rem !important;
+          right: 0.1rem !important;
+          z-index: 120;
+          font-weight: 500;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .section-links {
+    .outer-cont {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
+
+  .section-final {
+    .grid--4 {
+      grid-template-columns: 1fr 1fr 1fr !important;
+
+      .abt-cogni {
+        grid-row: 4/5 !important;
+        // grid
+      }
+      .glossary {
+        grid-row: 4/5 !important;
+        grid-column: 2/3 !important;
+      }
+    }
+  }
+}
+
+// @768px ***********************
+@media (max-width: 48em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .grid--2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .section-career {
+    .women-hand {
+      height: 25rem !important;
+      width: auto !important;
+    }
+  }
+
+  .section-engg {
+    .grid--3 {
+      grid-template-columns: 1fr !important;
+      justify-content: center;
+      box-sizing: border-box;
+
+      .flex-verti {
+        gap: 1.2rem;
+      }
+    }
+  }
+
+  .section-outreach {
+    .card {
+      width: 80% !important;
+    }
+  }
+
+  .section-cta {
+    button {
+      grid-row: 8/9 !important;
+    }
+  }
+}
+
+// 600px for section services
+@media (max-width: 38em) {
+  main {
+    .section-services {
+      .service-list {
+        grid-template-columns: 1fr !important;
+
+        .service-heading {
+          border-right: none !important;
+          border-bottom: 1px #fff solid;
+          margin-right: none;
+          margin-bottom: 2rem;
+          grid-column: span 1 !important;
+        }
+
+        .service-text {
+          grid-column: span 1 !important;
+        }
+      }
+    }
+  }
+}
+
+// @480px   ***********************
+@media (max-width: 30em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  footer {
+    .section-final {
+      .grid--4 {
+        grid-template-columns: 1fr 1fr !important;
+
+        .industries {
+          grid-row: 1/2 !important;
+          grid-column: 1/2 !important;
+        }
+        .services {
+          grid-row: 1/2 !important;
+          grid-column: 2/-1 !important;
+        }
+        .consulting {
+          grid-row: 2/3 !important;
+          grid-column: 1/2 !important;
+        }
+        .abt-cogni {
+          grid-row: 2/3 !important;
+          grid-column: 2/-1 !important;
+        }
+        .glossary {
+          grid-row: 3/4 !important;
+          grid-column: 2/-1 !important;
+          margin-top: -9rem !important;
+        }
+
+        .grid--3 {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    }
+  }
+}

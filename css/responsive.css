@@ -1,0 +1,237 @@
+@media (max-width: 80em) {
+  html {
+    font-size: 56.25%;
+    color: red !important;
+  }
+  .center-cont {
+    width: 90%;
+    padding: 0 2rem !important;
+  }
+}
+
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+  .logo-img {
+    height: 3rem;
+  }
+  .section-engg .grid--3 {
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-engg .grid--3 .flex-verti {
+    gap: 1.2rem;
+  }
+  .section-outreach .card {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 62rem) {
+  header .menu-1 {
+    padding: 2rem 0 !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    position: relative;
+  }
+  header .menu-1 .nav-link-cont {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  header .menu-1 .navbar {
+    position: absolute;
+    right: 2rem;
+  }
+  header .menu-1 .navbar .navbar-collapse {
+    background-color: #000048;
+    position: absolute;
+    font-size: 2rem;
+    line-height: 1.8;
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    top: 3rem !important;
+    right: 3rem !important;
+    padding: 0 2rem;
+    z-index: 120;
+    font-weight: 500;
+    color: #fff;
+  }
+  header .menu-1 .navbar .navbar-collapse svg {
+    fill: #fff !important;
+  }
+  header .menu-1 .navbar .worldwide-link {
+    border-left: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+  header .menu-1 .worldwide-link {
+    border-left: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+  header .menu-2 {
+    padding: 2rem 0 !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    position: relative;
+  }
+  header .menu-2 .navbar {
+    position: absolute;
+    right: 2rem;
+  }
+  header .menu-2 .navbar button {
+    z-index: 110;
+  }
+  header .menu-2 .navbar .navbar-collapse {
+    background-color: #000048;
+    position: absolute;
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    padding: 0 2rem;
+    top: 3rem !important;
+    right: 0.1rem !important;
+    z-index: 120;
+    font-weight: 500;
+    color: #fff;
+  }
+  .section-links .outer-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2rem;
+  }
+  .section-final .grid--4 {
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  .section-final .grid--4 .abt-cogni {
+    -ms-grid-row: 4 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 4/5 !important;
+  }
+  .section-final .grid--4 .glossary {
+    -ms-grid-row: 4 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 4/5 !important;
+    -ms-grid-column: 2 !important;
+    -ms-grid-column-span: 1 !important;
+    grid-column: 2/3 !important;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 43.75%;
+  }
+  .grid--2 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .section-career .women-hand {
+    height: 25rem !important;
+    width: auto !important;
+  }
+  .section-engg .grid--3 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .section-engg .grid--3 .flex-verti {
+    gap: 1.2rem;
+  }
+  .section-outreach .card {
+    width: 80% !important;
+  }
+  .section-cta button {
+    -ms-grid-row: 8 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 8/9 !important;
+  }
+}
+
+@media (max-width: 38em) {
+  main .section-services .service-list {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  main .section-services .service-list .service-heading {
+    border-right: none !important;
+    border-bottom: 1px #fff solid;
+    margin-right: none;
+    margin-bottom: 2rem;
+    grid-column: span 1 !important;
+  }
+  main .section-services .service-list .service-text {
+    grid-column: span 1 !important;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 37.5%;
+  }
+  footer .section-final .grid--4 {
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+  }
+  footer .section-final .grid--4 .industries {
+    -ms-grid-row: 1 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 1/2 !important;
+    -ms-grid-column: 1 !important;
+    -ms-grid-column-span: 1 !important;
+    grid-column: 1/2 !important;
+  }
+  footer .section-final .grid--4 .services {
+    -ms-grid-row: 1 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 1/2 !important;
+    grid-column: 2/-1 !important;
+  }
+  footer .section-final .grid--4 .consulting {
+    -ms-grid-row: 2 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 2/3 !important;
+    -ms-grid-column: 1 !important;
+    -ms-grid-column-span: 1 !important;
+    grid-column: 1/2 !important;
+  }
+  footer .section-final .grid--4 .abt-cogni {
+    -ms-grid-row: 2 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 2/3 !important;
+    grid-column: 2/-1 !important;
+  }
+  footer .section-final .grid--4 .glossary {
+    -ms-grid-row: 3 !important;
+    -ms-grid-row-span: 1 !important;
+    grid-row: 3/4 !important;
+    grid-column: 2/-1 !important;
+    margin-top: -9rem !important;
+  }
+  footer .section-final .grid--4 .grid--3 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
